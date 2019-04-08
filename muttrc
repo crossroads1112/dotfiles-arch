@@ -117,25 +117,25 @@ color body brightblue  default "(^|[[:space:][:punct:]])/[^/]+/([[:space:][:punc
 color body blue default "( *[-+=#*~_]){6,}"
 
 
-## Accounts
+### Accounts
 
-## Cub Gmail
-source "~/.mutt/cubgmail"
-folder-hook $folder 'source ~/.mutt/cubgmail'
+### Cub Gmail
+#source "~/.mutt/cubgmail"
+#folder-hook $folder 'source ~/.mutt/cubgmail'
 
-## Riseup email
+### Riseup email
 source "~/.mutt/riseup"
 folder-hook $folder 'source ~/.mutt/riseup'
 
 ## crossroads1112@gmail.com
-source "~/.mutt/gmail1"
-folder-hook $folder 'source ~/.mutt/gmail1'
+#source "~/.mutt/gmail1"
+#folder-hook $folder 'source ~/.mutt/gmail1'
 
 
-## chad.ml.sharp@gmail.com
-source "~/.mutt/gmail2"
-folder-hook $folder 'source ~/.mutt/gmail2'
+### chad.ml.sharp@gmail.com
+#source "~/.mutt/gmail2"
+#folder-hook $folder 'source ~/.mutt/gmail2'
 
-## cmlsharp@umich.edu
-source "~/.mutt/michigan"
-folder-hook $folder 'source ~/.mutt/michigan'
+### cmlsharp@umich.edu
+#source "~/.mutt/michigan"
+#folder-hook $folder 'source ~/.mutt/michigan'
